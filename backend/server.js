@@ -2,9 +2,9 @@ const express=require("express");//npm run server
 const authRoutes=require("./routes/authRoutes");
 const messageRoutes=require("./routes/messageRoutes");
 const userRoutes=require("./routes/userRoutes");
-
+const {app,server}=require("./socket/socket");
 const { connectToMongoDB } = require("./db/connectToMongoDB");
-const app=express();
+//const app=express();
 const dotenv=require("dotenv");
 
 dotenv.config();
@@ -27,5 +27,5 @@ app.use("/api/auth",authRoutes);
 app.use("/api/messages",messageRoutes);
 app.use("/api/users",userRoutes);
 
-app.listen(PORT,()=>
+server.listen(PORT,()=>
     console.log(`Server running on port ${PORT}`));
