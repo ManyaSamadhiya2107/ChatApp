@@ -53,7 +53,7 @@ const SignUp = () => {
 							 onChange={(e) => setInputs({ ...inputs, password: e.target.value })}
  						/>
  					</div>
-
+ 
  					<div>
  						<label className='label'>
  							<span className='text-base label-text'>Confirm Password</span>

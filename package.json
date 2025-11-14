@@ -1,10 +1,13 @@
 {
   "name": "chatapp",
   "version": "1.0.0",
-  "description": "",
+  "type": "commonjs",
+  "description": "��#\u0000 \u0000C\u0000h\u0000a\u0000t\u0000A\u0000p\u0000p\u0000\r\u0000 \u0000",
   "main": "server.js",
   "scripts": {
-    "server": "nodemon backend/server.js"
+    "server": "nodemon backend/server.js",
+    "start":"node backend/server.js",
+    "build":"npm install && npm install --prefix frontend && npm run build --prefix frontend"
   },
   "keywords": [],
   "author": "",
@@ -13,11 +16,20 @@
     "bcryptjs": "^3.0.2",
     "cookie-parser": "^1.4.7",
     "datenv": "^0.0.0",
-    "dotenv": "^16.4.7",
+    "dotenv": "^16.6.1",
     "express": "^4.21.2",
+    "has-flag": "^5.0.1",
     "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.13.1",
-    "nodemon": "^3.1.9",
+    "mongoose": "^8.17.0",
+    "nodemon": "^3.1.10",
     "socket.io": "^4.8.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManyaSamadhiya2107/ChatApp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ManyaSamadhiya2107/ChatApp/issues"
+  },
+  "homepage": "https://github.com/ManyaSamadhiya2107/ChatApp#readme"
 }
