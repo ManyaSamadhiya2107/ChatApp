@@ -51,4 +51,7 @@ body {
   color: black !important;
 }
 
+.chat-bubble.text-black {
+    color: black !important;
+}
 
