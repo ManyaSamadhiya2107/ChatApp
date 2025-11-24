@@ -39,7 +39,7 @@ body {
 	}
 }
 .chat-bubble {
-  background-color: var(--tw-bg-opacity);
   color: inherit;
 }
+
 
