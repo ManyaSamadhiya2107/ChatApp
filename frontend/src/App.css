@@ -38,3 +38,7 @@ body {
 		transform: translate3d(4px, 0, 0);
 	}
 }
+.chat-bubble {
+    background-color: transparent !important;
+    color: inherit !important;
+}
