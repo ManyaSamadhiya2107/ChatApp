@@ -39,6 +39,6 @@ body {
 	}
 }
 .chat-bubble {
-    background-color: transparent !important;
-    color: inherit !important;
+  background-color: inherit !important;
+  color: inherit !important;
 }
