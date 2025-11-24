@@ -41,5 +41,14 @@ body {
 .chat-bubble {
   color: inherit;
 }
+.chat-bubble.bg-blue-500 {
+  background-color: #3b82f6 !important;
+  color: white !important;
+}
+
+.chat-bubble.bg-gray-200 {
+  background-color: #e5e7eb !important;
+  color: black !important;
+}
 
 
